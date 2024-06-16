@@ -19,7 +19,6 @@
   "main": "sheet.js",
   "scripts": {
     "deploy-demo": "(cd ./angular-demo; npm run ngh)",
-    "build": "ngc",
     "prepare": "npm run build",
     "ngcc": "ngcc --properties es2015 module browser main --first-only",
     "release": "release-it"
