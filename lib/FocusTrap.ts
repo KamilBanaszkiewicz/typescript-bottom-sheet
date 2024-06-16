@@ -5,7 +5,7 @@ export class FocusTrap {
   private mostRecentlyFocusedElement: HTMLElement | null = null;
 
   constructor(private container: HTMLElement) {}
-
+  // @dynamic
   private static onTrappedFocusIn = (ev: FocusEvent) => {
     if (FocusTrap.currentTrap == null) {
       throw new Error(
