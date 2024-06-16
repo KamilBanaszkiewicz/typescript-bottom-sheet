@@ -10,12 +10,12 @@
     "removeComments": false,
     "noImplicitAny": true,
     "suppressImplicitAnyIndexErrors": true,
-    "lib": ["dom", "ESNext"],
+    "lib": ["dom", "esnext"],
     "strict": true
   },
   "exclude": ["node_modules", "angular-demo"],
   "angularCompilerOptions": {
-    "strictMetadataEmit": true,
+    "strictMetadataEmit": false,
     "annotationsAs": "decorators",
     "enableIvy": true
   }

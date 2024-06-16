@@ -21,8 +21,9 @@
     "deploy-demo": "(cd ./angular-demo; npm run ngh)",
     "prepare": "npm run build",
     "build": "ngc",
-    "ngcc": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-pointsy",
-    "release": "release-it"
+    "ngcc": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points",
+    "release": "release-it",
+    "postinstall": "npm run ngcc"
   },
   "repository": {
     "type": "git",
