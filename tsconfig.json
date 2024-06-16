@@ -15,7 +15,7 @@
   },
   "exclude": ["node_modules", "angular-demo"],
   "angularCompilerOptions": {
-    "strictMetadataEmit": true,
+    "strictMetadataEmit": false,
     "annotationsAs": "decorators",
     "enableIvy": false
   }
