@@ -11,7 +11,8 @@
     "noImplicitAny": true,
     "suppressImplicitAnyIndexErrors": true,
     "lib": ["dom", "ESNext"],
-    "strict": true
+    "strict": true,
+    "enableIvy": false
   },
   "exclude": ["node_modules", "angular-demo"],
   "angularCompilerOptions": {
