@@ -19,8 +19,6 @@
   "main": "sheet.js",
   "scripts": {
     "deploy-demo": "(cd ./angular-demo; npm run ngh)",
-    "build": "rm {.,angular,lib}/*.{d.ts,js,map,metadata.json,ngsummary.json}",
-    "prepare": "npm run build",
     "release": "release-it"
   },
   "repository": {
